@@ -1,0 +1,216 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+*{box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif; font-family: 'Noto Sans KR', sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2,h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+h1, h2,h3, h4, h5, h6, p, span, a{line-height: 1;}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{background: #548CA8;}
+
+#fullpage .fp-tableCell{display: flex; flex-wrap: wrap; justify-content: center; align-items: center; line-height: 1;}
+
+#fullpage .sec1 .fp-tableCell .type{display: block; font-size: 60px; color: #548CA8; font-weight: bold;}
+
+/* color: #54BAB9; */
+
+#fullpage .typed-cursor{display: block; font-size: 54px; color: #ccc;}
+
+/* ---------------------------- */
+
+#fullpage .sec2 .fp-tableCell{align-items: flex-start; padding: 5% 5%;}
+
+#fullpage .sec2 .fp-tableCell .left{width: 50%; height: 100%; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
+#fullpage .sec2 .fp-tableCell .left .img{width: 70%; height: 100%; background-image: url(../img/seogaeun.jpg); background-size: cover; background-position: 50% 50%; border-radius: 50% 0;}
+
+#fullpage .sec2 .fp-tableCell .right{width: 50%; height: 100%; display: flex; flex-wrap: wrap; flex-direction: column; align-items: center; justify-content: center;}
+#fullpage .sec2 .fp-tableCell .right .top{width: 100%;}
+#fullpage .sec2 .fp-tableCell .right .top h1{display: flex; flex-wrap: wrap; font-size: 40px; padding-bottom: 50px;}
+#fullpage .sec2 .fp-tableCell .right .top p{word-break: keep-all;}
+#fullpage .sec2 .fp-tableCell .right .top h1 span:first-child{display: block; width: 20px; height: 20px; background-image: url(../img/quote_left.png); background-size: cover; margin-right: 10px;}
+#fullpage .sec2 .fp-tableCell .right .top h1 span:last-child{display: block; width: 20px; height: 20px; background-image: url(../img/quote_right.png); background-size: cover; margin-left: 10px;}
+
+#fullpage .sec2 .fp-tableCell .right .top p{display: block; line-height: 1.6; font-size: 16px; color: #777;}
+#fullpage .sec2 .fp-tableCell .right .top p span{border-bottom: 1px solid #548CA8; color: #333;}
+
+#fullpage .sec2 .fp-tableCell .right .txt{width: 100%; padding-top: 100px; display: flex; flex-wrap: wrap;} 
+
+
+
+
+#fullpage .sec2 .fp-tableCell .right .txt .cont{width: 180px; padding-bottom: 40px; word-break: keep-all;}
+#fullpage .sec2 .fp-tableCell .right .txt .cont:nth-child(4){padding-bottom: 0;}
+#fullpage .sec2 .fp-tableCell .right .txt .cont:last-child{width: 400px; padding-bottom: 0;}
+
+#fullpage .sec2 .fp-tableCell .right .txt .cont .title{width: 100px; display: block; line-height: 1.4; padding-bottom: 10px;}
+#fullpage .sec2 .fp-tableCell .right .txt .cont .title .tit{padding: 0 6px; background-color: #D3E0EA;}
+
+#fullpage .sec2 .fp-tableCell .right .txt .cont > span{display: inline-block; padding: 0 20px; display: block; line-height: 1.4;}
+
+#fullpage .sec2 .fp-tableCell .right .txt .cont .content{display: block; line-height: 1.4;}
+
+
+
+
+
+#fullpage .sec3 .fp-tableCell{display: block;}
+
+#fullpage .sec3 h2{width: 100%; font-size: 50px; text-transform: uppercase; padding-top: 120px; padding-bottom: 80px; text-align: center; font-weight: normal; color: #fff; background-color: #548CA8; letter-spacing: 2px;}
+#fullpage .sec3 .skill{display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
+#fullpage .sec3 .skill.up{padding-top: 50px; padding-bottom: 40px;}
+
+#fullpage .sec3 .skill img{width: 150px; height: 120px; margin: 0 20px;}
+
+
+#fullpage .fp-controlArrow.fp-prev{left: 55%; background-image: url(../img/prev_arrow.png); border: none; width: 30px; height: 30px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;}
+#fullpage .fp-controlArrow.fp-next{right: 10%; background-image: url(../img/next_arrow.png); border: none; width: 30px; height: 30px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;}
+
+
+#fullpage .sec4 .fp-tableCell{padding: 5%;}
+#fullpage .sec4 .slide{width: 100%; height: 100%;}
+#fullpage .sec4 .slide .left{width: 50%; height: 100%; padding: 0 20px; position: relative;}
+#fullpage .sec4 .slide .left .img_box{position: absolute; top: 50%; left: 50%; width: calc(100% - 40px); transform: translate(-50%, -50%); overflow: hidden;}
+#fullpage .sec4 .slide .left img{width: 100%;}
+#fullpage .sec4 .slide .left .siteImg{width: 79.8%; height: 300px; background-size: 100%; background-position: 0 0; position: absolute; top: 4%; left: 50%; transform: translateX(-50%); transition: background-position 5s;}
+#fullpage .sec4 .slide .left .siteImg:hover{background-position: 0 100%;}
+
+
+
+#fullpage .sec4 .slide .right{width: 50%; height: 100%; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
+
+#fullpage .sec4 .slide .right .site_txt{text-align: center;}
+#fullpage .sec4 .slide .right .site_txt h3{font-size: 40px; padding-bottom: 40px;}
+#fullpage .sec4 .slide .right .site_txt p{padding-bottom: 10px;}
+#fullpage .sec4 .slide .right .site_txt button{padding: 8px 16px; border: 1px solid #000; background: none; color: #000; cursor: pointer; transition: background 0.3s, color 0.3s; margin: 40px 0;}
+
+#fullpage .sec4 .slide .right .site_txt button:hover{background: #000; color: #fff;}
+
+.contSec{display: block;}
+
+
+
+#fullpage .sec4 .ss1 .left .siteImg{ background-image: url(../img/objet_pc1.png);}
+#fullpage .sec4 .ss2 .left .siteImg{ background-image: url(../img/hanwha.png);}
+#fullpage .sec4 .ss3 .left .siteImg{ background-image: url(../img/b&o.png);}
+#fullpage .sec4 .ss4 .left .siteImg{ background-image: url(../img/puma.png);}
+
+
+#fullpage .sec5 .fp-tableCell{padding: 5%;}
+#fullpage .sec5 .left{width: 40%; height: 100%; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; position: relative;}
+#fullpage .sec5 .left .circle{width: 450px; height: 450px; border-radius: 50%; display: flex; flex-wrap: wrap; flex-direction: column; justify-content: center; align-items: center; background-color: #548CA8; color: #fff; font-weight: normal;}
+#fullpage .sec5 .left p{display: block; font-size: 60px; text-transform: uppercase; line-height: 1.6;}
+
+
+
+#fullpage .sec5 .right{width: 60%; height: 100%; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
+#fullpage .sec5 .right fieldset{border: none;}
+#fullpage .sec5 .right form{width: 70%;}
+
+#fullpage .sec5 .right form .form ul li{display: flex; flex-wrap: wrap; margin-bottom: 20px;}
+
+#fullpage .sec5 .right form .form ul li label{width: 30%; line-height: 40px;}
+
+
+#fullpage .sec5 .right form .form ul li .inputBox{width: 70%;}
+#fullpage .sec5 .right form .form ul li .inputBox input{width: 100%; line-height: 40px; font-size: 16px; padding: 0 10px; border: none; background: none; border-bottom: 1px solid #555; outline: none;}
+#fullpage .sec5 .right form .form ul li .inputBox textarea{width: 100%; height: 200px; resize: none; padding: 12px 10px; line-height: 1.5; border: none; background: none; border-bottom: 1px solid #555;  outline: none;}
+
+#fullpage .sec5 .right form .form ul li:last-child{margin-top: 60px;}
+
+#fullpage .sec5 .right form .form .btnBox{text-align: right;}
+#fullpage .sec5 .right form .form .btnBox button{padding: 8px 20px; border: 1px solid #000; background: none; color: #000; cursor: pointer; transition: background 0.3s, color 0.3s;}
+#fullpage .sec5 .right form .form .btnBox button:hover{background: #000; color: #fff;}
+
+
+#fullpage .sec5 .right .thankyou{position: fixed; top: 400vh; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: -1; display: none;}
+#fullpage .sec5 .right .thankyou .thankBox{position: absolute; max-width: 450px; min-width: 350px; height: auto; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #fff; padding: 20px;}
+
+#fullpage .sec5 .right .thankyou .thankBox h3{font-size: 18px; padding-bottom: 20px; word-break: keep-all; color: #548CA8; font-weight: normal;}
+#fullpage .sec5 .right .thankyou .thankBox p{font-size: 14px; padding: 20px 0; border-bottom: 1px solid #555;}
+
+#fullpage .sec5 .right .thankyou .thankBox .btnBox{text-align: right; padding-top: 20px;}
+
+#fullpage .sec5 .right .thankyou .thankBox .btnBox .btn{padding: 4px 20px; border: 1px solid #000; background: none; color: #000; cursor: pointer; transition: background 0.3s, color 0.3s;}
+#fullpage .sec5 .right .thankyou .thankBox .btnBox .btn:hover{background: #000; color: #fff;}
+
+
+@media (max-width:1300px){
+  #fullpage .sec2 .fp-tableCell .left .img{width: 80%; height: 80%;}
+  #fullpage .sec2 .fp-tableCell .right .top h1{font-size: 32px;}
+  #fullpage .sec2 .fp-tableCell .right .top h1 span:first-child{width: 14px; height: 14px; margin-right: 6px;}
+  #fullpage .sec2 .fp-tableCell .right .top h1 span:last-child{width: 14px; height: 14px; margin-left: 6px;}
+  #fullpage .sec2 .fp-tableCell .right .txt{padding-top: 80px;}
+  #fullpage .sec2 .fp-tableCell .right .txt .cont{width: 150px;}
+  #fullpage .sec2 .fp-tableCell .right .txt .cont:last-child{width: 200px;}
+}
+
+@media (max-width:991px){
+  #fullpage .sec2 .fp-tableCell .right .top h1{font-size: 26px;}
+  #fullpage .sec2 .fp-tableCell .right .txt .cont{font-size: 14px; width: 120px;}
+
+  #fullpage .sec4 .slide .right{align-items: center;}
+  #fullpage .sec4 .slide .right .site_txt{padding-top: 0;}
+  #fullpage .sec4 .slide .right .site_txt h3{font-size: 30px;}
+
+  #fullpage .sec5 .left .circle{width: auto; height: auto; background: none; color: #548CA8;}
+  #fullpage .sec5 .right form{width: 90%;}
+  
+}
+
+@media (max-width:767px){
+  #fullpage .sec1 .fp-tableCell .type{font-size: 40px;}
+
+  #fullpage .sec2 .fp-tableCell{height: 200%; padding: 10% 5%;}
+  #fullpage .sec2 .fp-tableCell .left{width: 100%; height: 60%;}
+  #fullpage .sec2 .fp-tableCell .left .img{height: 100%; background-position: 0% 30%;}
+
+  #fullpage .sec2 .fp-tableCell .right{width: 100%; height: 40%;}
+  #fullpage .sec2 .fp-tableCell .right .top{padding-top: 40px;}
+  #fullpage .sec2 .fp-tableCell .right .top h1{font-size: 24px; padding-bottom: 30px; justify-content: center;}
+  #fullpage .sec2 .fp-tableCell .right .top p{text-align: center; word-break: keep-all;}
+  #fullpage .sec2 .fp-tableCell .right .txt{display: none;}
+  #fullpage .sec2 .fp-tableCell .right .top h1 span:first-child{width: 10px; height: 10px; margin-right: 4px;}
+  #fullpage .sec2 .fp-tableCell .right .top h1 span:last-child{width: 10px; height: 10px; margin-left: 4px;}
+  
+  
+
+  #fullpage .sec3 h2{padding: 40px 0; font-size: 36px;}
+  #fullpage .sec3 .skill.up{padding-top: 40px;}
+
+  #fullpage .sec3 .skill img{width: 120px; height: 120px;}
+  #fullpage .sec3 .skill img:nth-child(4){margin-top: 40px; margin-bottom: 50px;}
+
+
+  #fullpage .sec4 .fp-tableCell{padding: 10% 5%;}
+  #fullpage .sec4 .slide .left{width: 100%; height: 50%;}
+  #fullpage .sec4 .slide .right{width: 100%; height: 50%; align-items: center; padding-top: 30px;}
+  #fullpage .sec4 .slide .right .site_txt{padding-top: 0;}
+  #fullpage .sec4 .slide .right .site_txt h3{font-size: 26px;}
+  #fullpage .sec4 .slide .right .site_txt button{margin: 30px 0;}
+
+  #fp-nav{display: none;}
+  #fullpage .fp-controlArrow.fp-prev{left: 5%; top: 75%;}
+  #fullpage .fp-controlArrow.fp-next{right: 5%; top: 75%;}
+
+
+  #fullpage .sec5 .fp-tableCell{display: block;}
+  #fullpage .sec5 .left{width: 100%; height: auto; padding: 20px 0;}
+  #fullpage .sec5 .left .circle{width: auto; height: auto; background: none; flex-direction: row;}
+  #fullpage .sec5 .left .circle p{color: #548CA8; font-size: 40px;}
+  #fullpage .sec5 .left .circle p:last-child{margin-left: 20px;}
+
+  #fullpage .sec5 .right{width: 100%; align-content: flex-start; padding-top: 0;}
+  #fullpage .sec5 .right form{width: 100%;}
+  #fullpage .sec5 .right fieldset{padding: 0; padding-top: 20px;}
+  #fullpage .sec5 .right form .form ul li{display: block;}
+  #fullpage .sec5 .right form .form ul li .inputBox{width: 100%;}
+  #fullpage .sec5 .right form .form ul li:last-child{margin-top: 20px;}
+
+  #fullpage .sec5 .right form .form ul li label{font-size: 14px;}
+  #fullpage .sec5 .right form .form ul li .inputBox input{font-size: 14px;}
+
+  #fullpage .sec5 .right form .form ul li .inputBox textarea{height: 150px; font-size: 14px;}
+}
+

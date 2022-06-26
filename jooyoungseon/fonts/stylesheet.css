@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Constantia';
+    src: url('Constantia-Bold.eot');
+    src: url('Constantia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Constantia-Bold.woff2') format('woff2'),
+        url('Constantia-Bold.woff') format('woff'),
+        url('Constantia-Bold.ttf') format('truetype'),
+        url('Constantia-Bold.svg#Constantia-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Constantia';
+    src: url('Constantia-Italic.eot');
+    src: url('Constantia-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Constantia-Italic.woff2') format('woff2'),
+        url('Constantia-Italic.woff') format('woff'),
+        url('Constantia-Italic.ttf') format('truetype'),
+        url('Constantia-Italic.svg#Constantia-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Constantia';
+    src: url('Constantia.eot');
+    src: url('Constantia.eot?#iefix') format('embedded-opentype'),
+        url('Constantia.woff2') format('woff2'),
+        url('Constantia.woff') format('woff'),
+        url('Constantia.ttf') format('truetype'),
+        url('Constantia.svg#Constantia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Constantia';
+    src: url('Constantia-BoldItalic.eot');
+    src: url('Constantia-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Constantia-BoldItalic.woff2') format('woff2'),
+        url('Constantia-BoldItalic.woff') format('woff'),
+        url('Constantia-BoldItalic.ttf') format('truetype'),
+        url('Constantia-BoldItalic.svg#Constantia-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoPubDotum';
+    src: url('KoPubDotumMedium.eot');
+    src: url('KoPubDotumMedium.eot?#iefix') format('embedded-opentype'),
+        url('KoPubDotumMedium.woff2') format('woff2'),
+        url('KoPubDotumMedium.woff') format('woff'),
+        url('KoPubDotumMedium.ttf') format('truetype'),
+        url('KoPubDotumMedium.svg#KoPubDotumMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Microsoft Himalaya';
+    src: url('MicrosoftHimalaya.eot');
+    src: url('MicrosoftHimalaya.eot?#iefix') format('embedded-opentype'),
+        url('MicrosoftHimalaya.woff2') format('woff2'),
+        url('MicrosoftHimalaya.woff') format('woff'),
+        url('MicrosoftHimalaya.ttf') format('truetype'),
+        url('MicrosoftHimalaya.svg#MicrosoftHimalaya') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoPubDotum';
+    src: url('KoPubDotumLight.eot');
+    src: url('KoPubDotumLight.eot?#iefix') format('embedded-opentype'),
+        url('KoPubDotumLight.woff2') format('woff2'),
+        url('KoPubDotumLight.woff') format('woff'),
+        url('KoPubDotumLight.ttf') format('truetype'),
+        url('KoPubDotumLight.svg#KoPubDotumLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoPubDotum';
+    src: url('KoPubDotumBold.eot');
+    src: url('KoPubDotumBold.eot?#iefix') format('embedded-opentype'),
+        url('KoPubDotumBold.woff2') format('woff2'),
+        url('KoPubDotumBold.woff') format('woff'),
+        url('KoPubDotumBold.ttf') format('truetype'),
+        url('KoPubDotumBold.svg#KoPubDotumBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoPubWorldDotum';
+    src: url('KoPubWorldDotumLight.eot');
+    src: url('KoPubWorldDotumLight.eot?#iefix') format('embedded-opentype'),
+        url('KoPubWorldDotumLight.woff2') format('woff2'),
+        url('KoPubWorldDotumLight.woff') format('woff'),
+        url('KoPubWorldDotumLight.ttf') format('truetype'),
+        url('KoPubWorldDotumLight.svg#KoPubWorldDotumLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoPubWorldDotum';
+    src: url('KoPubWorldDotumBold.eot');
+    src: url('KoPubWorldDotumBold.eot?#iefix') format('embedded-opentype'),
+        url('KoPubWorldDotumBold.woff2') format('woff2'),
+        url('KoPubWorldDotumBold.woff') format('woff'),
+        url('KoPubWorldDotumBold.ttf') format('truetype'),
+        url('KoPubWorldDotumBold.svg#KoPubWorldDotumBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KoPubWorldDotum';
+    src: url('KoPubWorldDotumMedium.eot');
+    src: url('KoPubWorldDotumMedium.eot?#iefix') format('embedded-opentype'),
+        url('KoPubWorldDotumMedium.woff2') format('woff2'),
+        url('KoPubWorldDotumMedium.woff') format('woff'),
+        url('KoPubWorldDotumMedium.ttf') format('truetype'),
+        url('KoPubWorldDotumMedium.svg#KoPubWorldDotumMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UntitledTTF';
+    src: url('UntitledTTF.eot');
+    src: url('UntitledTTF.eot?#iefix') format('embedded-opentype'),
+        url('UntitledTTF.woff2') format('woff2'),
+        url('UntitledTTF.woff') format('woff'),
+        url('UntitledTTF.ttf') format('truetype'),
+        url('UntitledTTF.svg#UntitledTTF') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

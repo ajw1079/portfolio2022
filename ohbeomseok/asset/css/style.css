@@ -1,0 +1,568 @@
+@charset "utf-8";
+
+
+
+a{
+    text-decoration: none;
+}
+
+section{
+    height: 100vh;
+}
+/* main{
+    height: 100vh;
+} */
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: background 0.5s, color 0.5s, transform 1s;
+    /* transition-delay: 0.5s; */
+    /* transform: translateY(-100%); */
+    
+}
+
+/* header.loading{
+    transform: translateY(-100%);
+} */
+header.deActive{
+}
+header.active{
+    transform: translateY(0%);
+}
+.headerWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2%;
+    margin: 0 auto;
+    position: relative;
+    font-size: 2em;
+}
+
+header .headerWrap .logo{}
+header .headerWrap .logo a{}
+header .headerWrap nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header .headerWrap nav a{
+    display: block;
+    line-height: 2.5;
+    margin: 0 2%;
+}
+header .headerWrap nav a:first-child{
+    margin-left: 0;
+}
+header .headerWrap nav a:last-child{
+    margin-right: 0;
+}
+
+#main{
+
+}
+#main .wrap{}
+#main .mainTitleHead{
+}
+#main .mainTitleHead .titleBox{
+    width: 70%;
+}
+#main .mainTitleHead .titleBox > div{
+    display: flex;
+}
+#main .mainTitleHead .titleBox .titleSubBox_1{}
+#main .mainTitleHead .titleBox .titleSubBox_2{
+    justify-content: center;
+}
+#main .mainTitleHead .titleBox .titleSubBox_3{
+    justify-content: flex-end;
+}
+#main .mainTitleHead .titleBox > div > *{}
+
+
+#main .mainTitleHead .titleHeadLine{
+    height: 45vh;
+}
+
+
+#main .mainTitleBottom{}
+#main .mainTitleBottom .subBox{
+    transform: rotate(270deg) translate(-22%, 0%);
+    transform-origin: 0% 0%;
+}
+#main .mainTitleBottom .subBox h1{
+    /* transform: rotate(270deg);
+    transform-origin: 0% 0%;
+    height: 100%;
+    margin-top: 50%; */
+
+
+    
+    /* height: 100%; */
+    /* margin-top: 50%; */
+    /* position: absolute; */
+}
+#main .mainTitleBottom .subBox .loopDiv{
+    width: 100%;
+    overflow: hidden;
+}
+#main .mainTitleBottom .subBox .loopDiv .loopDivFrame{
+    transform: translateX(0%);
+    /* transition: transform 1s; */
+}
+#main .mainTitleBottom .subBox .loopDiv .recObj{
+    width: 24px;
+    height: 10px;
+    margin: 0 12px;
+}
+
+#main .mainTitleBottom .createBox{
+    width: 20%;
+    text-align: center;
+}
+#main .mainTitleBottom .createBox h5{
+    text-align: right;
+}
+#main .mainTitleBottom .createBox .sinceBox{
+}
+#main .mainTitleBottom .createBox .sinceBox h3{
+}
+
+#introduce_1{
+    transition: background-color 0.75s;
+    
+}
+#introduce_1 .wrap{}
+#introduce_1 .introHead{
+    transform-origin: 100% 0%;
+    /* transform: rotate(270deg); */
+}
+#introduce_1 .introHead .introHeadTitle{}
+#introduce_1 .introHead .loopDiv{
+    overflow: hidden;
+    width: 45vh;
+    height: 100%;
+    transform: rotate(-90deg) translate(0%, 100%);
+    transform-origin: 100% 100%;
+}
+#introduce_1 .introHead .loopDiv .loopDivFrame{
+    transform: translateX(0%);
+}
+#introduce_1 .introHead .loopDiv .loopDivFrame .recObj{
+    height: 3px;
+    width: 24px;
+    margin: 0 12px;
+}
+
+#introduce_1 .introMiddle{
+    width: 100%;
+    height: 50vh;
+}
+#introduce_1 .persona{
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#introduce_1 .persona > *{
+    position: absolute;
+    
+}
+
+#introduce_1 .persona .personaTop{
+    width: 80%;
+    top: 70%;
+    
+}
+#introduce_1 .persona .personaBottom{
+    width: 80%;
+    bottom: 70%;
+}
+
+#introduce_1 .persona h5{
+    padding: 10%;
+    transition: font-size 0.5s, color 0.6s, transform 0.25s;
+    cursor: none;
+}
+#introduce_1 .persona h5:hover{
+    /* transform-origin: 50%; */
+    /* transform: translate(calc(0%), calc(0%)); */
+    /* transform: rotate((calc(360deg / 8 * var(--i)))); */
+    /* font-size: 4em;
+    color: #FFDD00; */
+}
+
+#introduce_1 .introBottom{}
+#introduce_1 .introBottom .introBottomLineTop{
+    height: 45vh;
+    bottom: 0;
+}
+#introduce_1 .introBottom .introBottomLineRight{
+    width: 45vw;
+}
+
+
+
+
+
+
+
+
+
+
+#portFolio_1 .swiper{
+    /* background-color: rgba(33, 33, 33, 0.1); */
+    height: 100%;
+
+}
+
+#portFolio_1 .swiper .swiper-wrapper{
+}
+#portFolio_1 .swiper .swiper-wrapper .swiper-slide{
+    padding: 3%;
+    width: 100%;
+    height: calc((100vh) - 30vh);
+}
+#portFolio_1 .portFolioSlideWrap{
+    width: 100%;
+    height: 100%;
+}
+#portFolio_1 .portFolioSlideWrapLeft{
+    width: 40%;
+}
+#portFolio_1 .portFolioSlideWrapLeft .portFolioSlideImg{
+    overflow: auto;
+    height: 100%;
+    
+}
+
+#portFolio_1 .swiper .swiper-wrapper .swiper-slide .portFolioSlideWrapLeft .portFolioSlideImg::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+}
+#portFolio_1 .swiper .swiper-wrapper .swiper-slide:nth-child(1) .portFolioSlideWrapLeft .portFolioSlideImg::-webkit-scrollbar-thumb{
+    background-color: #EBEEF7;
+}
+#portFolio_1 .swiper .swiper-wrapper .swiper-slide:nth-child(2) .portFolioSlideWrapLeft .portFolioSlideImg::-webkit-scrollbar-thumb{
+    background-color: #2D2D2D;
+}
+#portFolio_1 .portFolioSlideWrapLeft .portFolioSlideImg img{
+    width: 100%;
+}
+
+#portFolio_1 .portFolioSlideWrapRight{
+    width: 100%;
+    height: 100%;
+}
+#portFolio_1 .portFolioSlideWrapRight .portFolioSlideText{
+    width: 100%;
+    height: 100%;
+
+}
+#portFolio_1 .portFolioSlideWrapRight .portFolioSlideText .portFolioSlideTextTitle{}
+#portFolio_1 .portFolioSlideWrapRight .portFolioSlideText .portFolioSlideTextDesc{}
+#portFolio_1 .portFolioSlideWrapRight .portFolioSlideText .portFolioSlideTextDesc .center{
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    word-break: keep-all;
+}
+#portFolio_1 .portFolioSlideWrapRight .portFolioSlideText .portFolioSlideTextDesc .center h5{
+
+}
+#portFolio_1 .portFolioSlideWrapRight .portFolioSlideText .portFolioSlideTextInfo{
+    width: 100%;
+}
+#portFolio_1 .portFolioSlideWrapRight .portFolioSlideText .portFolioSlideTextInfo .left{}
+#portFolio_1 .portFolioSlideWrapRight .portFolioSlideText .portFolioSlideTextInfo .left img{
+    height: 3em;
+    margin-right: 3%;
+}
+#portFolio_1 .portFolioSlideWrapRight .portFolioSlideText .portFolioSlideTextInfo .right{
+    
+}
+#portFolio_1 .portFolioSlideWrapRight .portFolioSlideText .portFolioSlideTextInfo .right a{
+    font-size: 3.4em;
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    border-radius: 4px;
+}
+
+#introduce_2 .introHead{}
+#introduce_2 .introHead .introHeadLine{
+    height: 3px;
+    width: 80vw;
+    
+}
+
+#introduce_2 .introBody{}
+#introduce_2 .introBody .introBodyCont{
+    max-height: 250px;
+}
+#introduce_2 .introBody .introBodyCont .txtBox{}
+#introduce_2 .introBody .introBodyCont .notionLink{
+    width: 100%;
+}
+#introduce_2 .introBody .introBodyCont .notionLink a{
+    /* width: 30em; */
+    /* height: 30em; */
+    font-size: 3em;
+    color: #F2CD02;
+}
+#introduce_2 .introBody .introBodyCont .notionLink img{
+    height: 30em;
+    /* cursor: pointer; */
+}
+
+#introduce_2 .introBottom{
+    transform-origin: 100% 0%;
+    /* transform: rotate(270deg); */
+    z-index: -1;
+}
+#introduce_2 .introBottom img{
+    height: 35vh;
+}
+#introduce_2 .introBottom .introBottomTitle{}
+#introduce_2 .introBottom .loopDiv{
+    overflow: hidden;
+    width: 45vh;
+    height: 100%;
+    transform: rotate(-90deg) translate(0%, 100%);
+    transform-origin: 0% 100%;
+}
+#introduce_2 .introBottom .loopDiv .loopDivFrame{
+    transform: translateX(0%);
+}
+#introduce_2 .introBottom .loopDiv .loopDivFrame .recObj{
+    height: 3px;
+    width: 24px;
+    margin: 0 12px;
+}
+
+
+#portFolio_2{}
+#portFolio_2 .wrap{}
+#portFolio_2 .portFolioHead{}
+#portFolio_2 .portFolioHead .portFolioTypeH{}
+#portFolio_2 .portFolioHead .portFolioTypeH h3{
+    opacity: 0;
+    z-index: -1;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.5s;
+}
+#portFolio_2 .portFolioHead .portFolioTypeH h3.active{
+    opacity: 1;
+    z-index: 1;
+}
+#portFolio_2 .portFolioHead .portFolioTypeH img{
+    height: 5.4em;
+    margin-bottom: 0.6em;
+    opacity: 0;
+    z-index: -1;
+    cursor: pointer;
+}
+#portFolio_2 .portFolioHead .portFolioTypeH img.active{
+    opacity: 1;
+    z-index: 1;
+}
+#portFolio_2 .portFolioHead .portFolioHeadLine{
+    width: 45vw;
+}
+
+
+#portFolio_2 .portFolioMiddle{
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap{
+    width: 80vw;
+    height: 60vh;
+}
+
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap > div{
+    opacity: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap > div.active{
+    opacity: 1;
+    z-index: 1;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .portFolioMiddleDefault{
+    width: 100%;
+    height: 100%;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .portFolioMiddleDefault > div{
+    width: 65vw;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .portFolioMiddleDefault > div h3{
+    line-height: 2;
+}
+
+#portFolio_2 .portFolioBottom{}
+#portFolio_2 .portFolioBottom .portFolioLoopDiv{
+    
+}
+#portFolio_2 .portFolioBottom .portFolioLoopDiv .portFolioLoopDivFrame{
+}
+#portFolio_2 .portFolioBottom .portFolioLoopDiv .portFolioLoopDivFrame h6{
+    margin: 0.25%;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .portFolioTypeCont{
+    width: 100%;
+    height: 100%;
+}
+
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .swiperFolio{
+    height: 100%;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .swiperFolio .swiper-wrapper{}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .swiperFolio .swiper-wrapper .swiper-slide{}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .swiperFolio .swiper-wrapper .swiper-slide .portFolioCard{
+    width: 30em;
+    height: 80%;
+    border-radius: 4px;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .swiperFolio .swiper-wrapper .swiper-slide .portFolioCard .portFolioCardImg{
+    height: 50%;
+    background-size: cover;
+    position: relative;
+    background-color: #fff;
+    border-radius: 4px 4px 0 0;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .swiperFolio .swiper-wrapper .swiper-slide .portFolioCard .portFolioCardImg img{
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .swiperFolio .swiper-wrapper .swiper-slide .portFolioCardBody{
+    height: 25em;
+    /* background: rgba(255, 255, 255, 0.8); */
+    border-radius: 0 0 4px 4px;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .swiperFolio .swiper-wrapper .swiper-slide .portFolioCardBody .used{
+    margin-bottom: 5%;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .swiperFolio .swiper-wrapper .swiper-slide .portFolioCardBody .used img{
+    height: 3em;
+    margin-right: 3%;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .swiperFolio .swiper-wrapper .swiper-slide .portFolioCardBody .link{
+    text-align: center;
+}
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .swiperFolio .swiper-wrapper .swiper-slide .portFolioCardBody .link a{
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    font-size: 1.6em;
+    border-radius: 4px;
+
+}
+
+/* fixed */
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .portFolioMiddleFixed{
+    width: 100%;
+    height: 100%;
+}
+
+/* responsive */
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .portFolioMiddleResponsive{}
+
+/* code */
+#portFolio_2 .portFolioMiddle .portFolioMiddleWrap .portFolioMiddleCode{}
+
+
+
+
+#contact{}
+#contact .wrap{}
+#contact .contactHead{}
+#contact .contactHead .contactHeadTitle{}
+#contact .contactHead .contactHeadTitle .portFolioLoopDiv{
+    width: 45vh;
+    height: 60px;
+    transform: rotate(-90deg) translate(-105%, 100%);
+    transform-origin: 0% 100%;
+    /* top: 400%; */
+}
+#contact .contactHead .contactHeadTitle .portFolioLoopDiv .contactLoopDivFrame{
+    overflow: hidden;
+    /* width: 50%; */
+
+}
+#contact .contactHead .contactHeadTitle .portFolioLoopDiv .contactLoopDivFrame h4{
+    width: 240px;
+}
+
+#contact a{
+    font-size: 2em;
+    color: #212121;
+}
+#contact img{
+    height: 2em;
+}
+
+
+#contact .contactBottom{
+
+}
+#contact .contactBottomInnerWrap{
+    width: 45vw;
+}
+#contact .contactBottomMailBox{
+    display: none;
+}
+#contact .contactBottomMailBox .gForm{}
+#contact .contactBottomMailBox fieldset{}
+#contact .contactBottomMailBox fieldset .formList{}
+#contact .contactBottomMailBox fieldset .formList input, #contact .contactBottomMailBox fieldset .formList textarea{
+    width: 100%;
+}
+#contact .contactBottomMailBox fieldset .formList textarea{
+    height: 40vh;
+}
+#contact .contactBottomMailBox fieldset .formList button{
+    background: transparent;
+    border: none;
+}
+#contact .contactBottomMailBox fieldset .formList .contactBottomInfo .contactBottomInfoLeft div{
+    display: flex;
+    align-items: center;
+}
+
+#contact .contactBottomMailBox fieldset .formList .contactBottomInfo .contactBottomInfoLeft div img{
+    margin-right: 0.5vw;
+}
+#contact .contactBottomMailBox fieldset .formList .contactBottomInfo .contactBottomInfoLeft .contactBottomInfoLeftBottom > div{
+    margin-right: 3vw;
+}
+#contact .contactInfo{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+}
+#contact .contactInfo .contactInfoCont > div{
+    margin-bottom: 2em;
+}
+#contact .contactInfo .contactInfoCont > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact .contactInfo .contactInfoCont > div > img{
+    margin-right: 1em;
+}
+
